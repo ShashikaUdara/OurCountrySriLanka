@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html
+{
+  margin: 0;
+  height: 100%;
+  
+  /* Center and scale the image nicely */
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*position: absolute;*/
+  /*background-attachment: fixed;*/
+  /*z-index: 1;*/
+}
+
+div.bg-image 
+{
+  height: 100%;
+  background-image: url("../img/province-beauty/ep.jpeg");
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  scroll-behavior: 
+}
+
+.bg-text {
+  /*background-color: rgb(0,0,0); /* Fallback color */
+  background-color: transparent; /* Black w/opacity/see-through */
+  /*color: white;*/
+  /*font-weight: bold;*/
+  /*border: 3px solid #f1f1f1;*/
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  z-index: 2;
+  /*width: 80%;*/
+  padding: 20px;
+  /*text-align: center;*/
+
+  /*bring bg-text into the middle of the blarred picture*/
+  top: 10%;
+  left: 20%;
+  right: 20%;
+  /*transform: translate(-50% -50%);*/
+}
+
+.province-title, .province-dis
+{
+  text-align: center;
+}
+
+.province-tumbnail
+{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.img_province_flag
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.province-flag-description
+{
+  text-align: center;
+}
+
+.about-province
+{
+  margin-left: 15%;
+  margin-right: 15%;
+}
